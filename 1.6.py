@@ -1,7 +1,7 @@
 a = int(input('input km: '))
 b = int(input('input  max km: '))
 day = 1
-
+print(f'{day}-й день: {a}')
 while a <= b:
     a = a + a * 0.1
     day += 1
